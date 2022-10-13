@@ -14,6 +14,7 @@ class CalculatorTest1: UITest() {
             case(1){
                 condition {
                     it.tapAppIcon("電卓")
+                        .tap("[AC]")
                 }.action {
                     it.tap("[1]")
                         .tap("[2]")
