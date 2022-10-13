@@ -15,16 +15,16 @@ class CalculatorTest1: UITest() {
                 condition {
                     it.tapAppIcon("Calculator")
                 }.action {
-                    it.tap("1")
-                        .tap("2")
-                        .tap("3")
-                        .tap("+")
-                        .tap("4")
-                        .tap("5")
-                        .tap("6")
-                        .tap("=")
+                    it.tap("[1]")
+                        .tap("[2]")
+                        .tap("[3]")
+                        .tap("[+]")
+                        .tap("[4]")
+                        .tap("[5]")
+                        .tap("[6]")
+                        .tap("[=]")
                 }.expectation {
-                    it.select("#result_final")
+                    it.select("[result final]")
                         .textIs("579")
                 }
             }
