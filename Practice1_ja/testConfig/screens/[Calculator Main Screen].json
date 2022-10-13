@@ -1,12 +1,6 @@
 {
   "key": "[Calculator Main Screen]",
 
-  "screens": {
-    "import": [
-      "testConfig/screens"
-    ]
-  },
-
   "identity": "[AC][()]",
 
   "selectors": {
