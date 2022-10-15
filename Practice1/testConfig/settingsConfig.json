@@ -2,9 +2,11 @@
   "testConfigName": "settingsConfig",
 
   "appIconName": "Calculator",
-  "packageOrBundleId": "com.android.settings",
+  "packageOrBundleId": "com.google.android.calculator",
+
   "startupPackageOrBundleId": "com.android.settings",
   "startupActivity": "com.android.settings.Settings",
+
   "profiles": [
     {
       "profileName": "Android 12",

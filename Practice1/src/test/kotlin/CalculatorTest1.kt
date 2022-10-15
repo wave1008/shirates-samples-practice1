@@ -13,7 +13,7 @@ class CalculatorTest1: UITest() {
         scenario {
             case(1){
                 condition {
-                    it.tapAppIcon("Calculator")
+                    it.tapAppIcon()
                         .tap("[AC]")
                 }.action {
                     it.tap("[1]")
